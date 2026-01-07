@@ -1,9 +1,8 @@
 "use client"
 
-import Link from "next/link"
-import { ImageWithFallback } from "@/components/figma/ImageWithFallback"
-import images from "@/lib/images"
-import LauncherCenterCard from "@/components/LauncherCenterCard"
+import { ImageWithFallback } from "../components/figma/ImageWithFallback"
+import images from "../lib/images"
+import LauncherCenterCard from "../components/LauncherCenterCard"
 
 // Grid configuration
 const CENTER_CELLS = [5, 6, 9, 10]
@@ -89,7 +88,7 @@ export default function UILauncherPage() {
 
             // Active app card
             return (
-              <Link
+              <a
                 key={`grid-cell-${i}`}
                 href={appData.route}
                 className="group relative rounded-lg overflow-hidden bg-white/5 border border-white/10 hover:border-[#FFD700]/50 transition-all duration-300"
@@ -116,7 +115,7 @@ export default function UILauncherPage() {
                     فتح التطبيق
                   </div>
                 </div>
-              </Link>
+              </a>
             )
           })}
         </div>

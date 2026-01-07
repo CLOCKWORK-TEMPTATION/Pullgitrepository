@@ -1,13 +1,13 @@
 // Cinema & Series Theme Images (High Quality, Dramatic, B&W/Muted style preferred)
 const images: string[] = [
-  // 0-6: The V-Shape Images (High impact cinema scenes)
-  "/assets/v-shape/v-shape-card-1.png", // Cinema Projector
-  "/assets/v-shape/v-shape-card-2.png", // Movie Theater Dark
-  "/assets/v-shape/v-shape-card-3.png", // Film Reels
-  "/assets/v-shape/v-shape-card-4.png", // Movie Set Light (center card)
-  "/assets/v-shape/v-shape-card-5.png", // Old Cinema
-  "/assets/v-shape/v-shape-card-6.png", // Clapperboard
-  "/assets/v-shape/v-shape-card-7.jpg", // Director Chair
+  // 0-6: The V-Shape Images (High impact cinema scenes) - FROM GITHUB RAW
+  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-1.png", // Cinema Projector
+  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-2.png", // Movie Theater Dark
+  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-3.png", // Film Reels
+  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-4.png", // Movie Set Light (center card)
+  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-5.png", // Old Cinema
+  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-6.png", // Clapperboard
+  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-7.jpg", // Director Chair
 
   // 7-18: The Surrounding Grid Images (Atmospheric, Behind the scenes)
   "https://images.unsplash.com/photo-1533488765986-dfa2a9939acd?q=80&w=1080&auto=format&fit=crop", // Vintage Camera
@@ -19,7 +19,7 @@ const images: string[] = [
   "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=1080&auto=format&fit=crop", // Dramatic Portrait
   "https://images.unsplash.com/photo-1535016120720-40c6874c3b13?q=80&w=1080&auto=format&fit=crop", // Hollywood Sign
   "https://images.unsplash.com/photo-1574267432553-4b4628081c31?q=80&w=1080&auto=format&fit=crop", // 3D Glasses/Abstract
-  "https://images.unsplash.com/photo-1595769816263-9b9910be24d5f?q=80&w=1080&auto=format&fit=crop", // Camera Lens
+  "https://images.unsplash.com/photo-1595769816263-9b910be24d5f?q=80&w=1080&auto=format&fit=crop", // Camera Lens
   "https://images.unsplash.com/photo-1512113569124-0c8966785c68?q=80&w=1080&auto=format&fit=crop", // Production
   "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1080&auto=format&fit=crop", // Audience
 ];

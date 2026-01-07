@@ -1,18 +1,15 @@
 "use client"
 
 import { useRef, useState, type CSSProperties } from "react"
+
 import { VideoTextMask } from "./VideoTextMask"
 import { useHeroAnimation } from "../hooks/use-hero-animation"
 import { ImageWithFallback } from "./figma/ImageWithFallback"
 import { IntroVideoModal } from "./IntroVideoModal"
 import images from "../lib/images"
 
-const HERO_CARD_IMAGE_STYLES: Record<string, CSSProperties> = {
-  "/assets/v-shape/V-Shape-3.jpeg": {
-    objectFit: "contain",
-    backgroundColor: "rgba(5, 5, 5, 0.9)",
-  },
-}
+// No special image styles needed - all cards use default cover
+const HERO_CARD_IMAGE_STYLES: Record<string, CSSProperties> = {}
 
 export const HeroAnimation = () => {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -41,10 +38,10 @@ export const HeroAnimation = () => {
 
       <div className="scene-container fixed inset-0 z-[10000] flex items-center justify-center pointer-events-none">
 
-        {/* Original Unified Entity - Clickable Portal */}
+        {/* Original Unified Entity - Clickable Portal to /ui */}
         <div className="frozen-container relative w-full h-full flex items-center justify-center origin-center pointer-events-none">
           <a
-            href="#ui"
+            href="/ui"
             id="center-unified-entity"
             aria-label="فتح قائمة أدوات النسخة"
             className="unified-entity relative w-full h-full flex items-center justify-center block pointer-events-auto focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FFD700]/60 focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-2xl"
@@ -90,7 +87,7 @@ export const HeroAnimation = () => {
               <div className="main-content-wrapper relative flex flex-col items-center justify-center text-center w-full h-full">
                 {/* Main Title: "النسخة" - الكبير دايماً */}
                 <div className="text-content-wrapper flex flex-col items-center justify-center w-auto z-30 -ml-0.5 opacity-0">
-                  <h1 className="text-main text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-black tracking-tighter leading-tight text-center drop-shadow-2xl">
+                  <h1 className="text-main text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-black tracking-tighter leading-tight text-center drop-shadow-2xl" style={{ fontFamily: 'Cairo, sans-serif' }}>
                     النسخة
                   </h1>
                 </div>
