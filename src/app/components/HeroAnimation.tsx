@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef, useState, type CSSProperties } from "react"
+import { Link } from "react-router-dom"
 
 import { VideoTextMask } from "./VideoTextMask"
 import { useHeroAnimation } from "../hooks/use-hero-animation"
@@ -40,8 +41,8 @@ export const HeroAnimation = () => {
 
         {/* Original Unified Entity - Clickable Portal to /ui */}
         <div className="frozen-container relative w-full h-full flex items-center justify-center origin-center pointer-events-none">
-          <a
-            href="/ui"
+          <Link
+            to="/ui"
             id="center-unified-entity"
             aria-label="فتح قائمة أدوات النسخة"
             className="unified-entity relative w-full h-full flex items-center justify-center block pointer-events-auto focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FFD700]/60 focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-2xl"
@@ -95,14 +96,14 @@ export const HeroAnimation = () => {
                 {/* Secondary texts container - Dedication then Slogan */}
                 <div className="text-overlay-container absolute inset-0 z-[54] flex flex-col items-center justify-center pointer-events-none">
                   {/* Dedication Text: "اهداء ليسري نصر الله" */}
-                  <div className="dedication-wrapper absolute pt-62 md:pt-40 mr-30 md:mr-32 opacity-0">
+                  <div className="dedication-wrapper absolute opacity-0" style={{ paddingTop: '15.5rem', marginRight: '7.5rem' }}>
                     <p className="unified-text-style">
                       اهداء ليسري نصر الله
                     </p>
                   </div>
 
                   {/* Phase 5 Text: "بس اصلي" - السلوغن الثانوي بعد الإهداء */}
-                  <div className="phase-5-wrapper absolute pt-62 md:pt-40 mr-30 md:mr-32 opacity-0">
+                  <div className="phase-5-wrapper absolute opacity-0" style={{ paddingTop: '15.5rem', marginRight: '7.5rem' }}>
                     <p className="unified-text-style">
                       بس اصلي
                     </p>
@@ -110,7 +111,7 @@ export const HeroAnimation = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
 

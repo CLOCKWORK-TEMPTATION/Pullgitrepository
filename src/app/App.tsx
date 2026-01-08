@@ -1,10 +1,15 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { HeroAnimation } from "./components/HeroAnimation"
+import UILauncherPage from "./ui/page"
 import "../styles/globals.css"
 
 export default function App() {
   return (
-    <main className="min-h-screen bg-black text-white font-sans selection:bg-white selection:text-black overflow-hidden" dir="rtl">
-      <HeroAnimation />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HeroAnimation />} />
+        <Route path="/ui" element={<UILauncherPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }

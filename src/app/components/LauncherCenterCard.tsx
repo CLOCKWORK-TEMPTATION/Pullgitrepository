@@ -74,11 +74,22 @@ const LauncherCenterCard = ({ className = "" }: LauncherCenterCardProps) => {
 
       {/* Overlay Text */}
       <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/20 backdrop-blur-[1px] group-hover:bg-black/10 transition-colors duration-300">
-        <div className="text-center z-50">
-          <h2 className="text-2xl md:text-4xl font-black text-white drop-shadow-2xl mb-2">
+        <div className="text-center z-50 space-y-3">
+          <h2 className="text-2xl md:text-4xl font-black text-white drop-shadow-2xl" style={{ fontFamily: 'Cairo, sans-serif' }}>
             النسخة
           </h2>
-          <p className="text-xs md:text-sm text-white/70 tracking-wider">
+          
+          {/* Slogan: "بس اصلي" - Just Be Original */}
+          <p className="text-base md:text-xl font-bold text-[#FFD700] tracking-wider drop-shadow-lg" style={{ fontFamily: 'Cairo, sans-serif' }}>
+            بس اصلي
+          </p>
+
+          {/* CTA Button */}
+          <button className="mt-4 px-6 py-2.5 bg-black/80 hover:bg-black/90 border-2 border-[#FFD700] rounded-full text-white text-sm font-semibold tracking-wider transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,215,0,0.4)]" style={{ fontFamily: 'Cairo, sans-serif' }}>
+            ابدأ المحرر
+          </button>
+
+          <p className="text-xs md:text-sm text-white/70 tracking-wider mt-2" style={{ fontFamily: 'Cairo, sans-serif' }}>
             أدوات صناعة المحتوى السينمائي
           </p>
         </div>

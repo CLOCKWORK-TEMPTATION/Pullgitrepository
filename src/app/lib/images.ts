@@ -1,13 +1,13 @@
 // Cinema & Series Theme Images (High Quality, Dramatic, B&W/Muted style preferred)
 const images: string[] = [
-  // 0-6: The V-Shape Images (High impact cinema scenes) - FROM GITHUB RAW
-  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-1.png", // Cinema Projector
-  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-2.png", // Movie Theater Dark
-  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-3.png", // Film Reels
-  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-4.png", // Movie Set Light (center card)
-  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-5.png", // Old Cinema
-  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-6.png", // Clapperboard
-  "https://raw.githubusercontent.com/CLOCKWORK-TEMPTATION/Pullgitrepository/main/public/assets/v-shape/v-shape-card-7.jpg", // Director Chair
+  // 0-6: The V-Shape Images (High impact cinema scenes) - REAL UNSPLASH IMAGES
+  "https://images.unsplash.com/photo-1765188987985-6a9a0769b79b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaW5lbWElMjBwcm9qZWN0b3IlMjB2aW50YWdlfGVufDF8fHx8MTc2NzgzNzYwM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Cinema Projector
+  "https://images.unsplash.com/photo-1621276336795-925346853745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHRoZWF0ZXIlMjBkYXJrfGVufDF8fHx8MTc2Nzc3NTAwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Movie Theater Dark
+  "https://images.unsplash.com/photo-1764689668473-b834a1a575e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWxtJTIwcmVlbHMlMjB2aW50YWdlfGVufDF8fHx8MTc2NzgzNzYwNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Film Reels
+  "https://images.unsplash.com/photo-1618256506572-4c3a7082e4c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHNldCUyMGxpZ2h0aW5nfGVufDF8fHx8MTc2Nzc4Njk1NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Movie Set Light (center card)
+  "https://images.unsplash.com/photo-1584158738154-6d68b1d0827d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbGQlMjBjaW5lbWElMjB0aGVhdGVyfGVufDF8fHx8MTc2NzgzNzYwNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Old Cinema
+  "https://images.unsplash.com/photo-1745860565625-c6f027b902b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGFwcGVyYm9hcmQlMjBmaWxtfGVufDF8fHx8MTc2NzgzNzYwNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Clapperboard
+  "https://images.unsplash.com/photo-1758491037354-26d601d3cadd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXJlY3RvciUyMGNoYWlyJTIwZmlsbXxlbnwxfHx8fDE3Njc4Mzc2MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Director Chair
 
   // 7-18: The Surrounding Grid Images (Atmospheric, Behind the scenes)
   "https://images.unsplash.com/photo-1533488765986-dfa2a9939acd?q=80&w=1080&auto=format&fit=crop", // Vintage Camera
